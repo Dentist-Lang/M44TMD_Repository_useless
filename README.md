@@ -1,16 +1,27 @@
+How to get the data?
+
+```shell
+cd M44TMD
+```
+
+Download from the link https://drive.google.com/drive/folders/1d6zrDtWASJOvyov53zS3-1ZPgW_Ht2Pe?usp=drive_link and unzip it.
+
+
+
 How to put the files?
 
 Files structure
 
+```shell
 M44TMD_Repository
-├── data
+├── Data
 │   ├── ZJU-H2_TMJMRI_Dataset
 │   │   ├── MRI_Data
 │   │   └── Annotation.xlsx
 │   └── ZJU-H2_ExternalTest_TMJMRI_Dataset
 │       ├── MRI_Data_external
 │       └── Annotation_external.xlsx
-├── code
+├── Code
 │   ├── Models
 │   │   ├── M44TMD_ResNet50_fea-fus.py
 │   │   └── M44TMD_ResNet50_dec-fus.py
@@ -27,7 +38,7 @@ M44TMD_Repository
 │   └── External_set
 │       └── External_test_set.txt
 └── requirements.txt
-
+```
 
 How to run the code?
 ```shell
