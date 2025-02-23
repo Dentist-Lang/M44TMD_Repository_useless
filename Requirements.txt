@@ -1,0 +1,4 @@
+Python == 3.11.3
+Statsmodels == 0.13.5
+Matplotlib == 3.7.1
+Scikit-learn == 1.2.2
